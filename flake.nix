@@ -2,7 +2,7 @@
   description = "Wrapped Yazi configuration";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   # inputs.wrappers.url = "path:/home/apetrovic/clan/nix-wrapper-modules";
-  inputs.wrappers.url = "github:apetrovic6/nix-wrapper-modules";
+  inputs.wrappers.url = "github:BirdeeHub/nix-wrapper-modules";
   inputs.wrappers.inputs.nixpkgs.follows = "nixpkgs";
   inputs.treefmt-nix.url = "github:numtide/treefmt-nix";
   inputs.treefmt-nix.inputs.nixpkgs.follows = "nixpkgs";
